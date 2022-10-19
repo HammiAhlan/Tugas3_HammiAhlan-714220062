@@ -1,0 +1,135 @@
+* {
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper{
+	width: 1100px;
+	margin: auto;
+	position: relative;
+}
+
+.logo {
+	font-size: 50px;
+	font-weight: 800px;
+	float: right;
+	font-family: 'Courier New',Courier,monospace;
+	color: crimson;
+}
+
+.menu {
+	float: left;
+}
+
+nav {
+	width: 100%;
+	margin: auto;
+	display: flex;
+	line-height: 80px;
+    
+	/*agar nav selalu tampil*/
+
+	position: absolute;
+	position: -webkit-sticky;
+	top: 0;
+	background: black;
+	z-index: 1;
+	border-bottom: 1px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav ul li{
+	float: left;
+}
+
+nav ul li a {
+	color: royalblue;
+	font-weight: bold;
+	text-align: center;
+	padding: 0px 16px 0px 16px;
+	text-decoration: none;
+} 
+ 
+body{
+    margin: 0;
+    padding: 0;
+}    
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/9757d496-239b-46c5-baea-6873cbfe9b3d/ddltwlt-1775ac31-5b13-408d-b257-9cd728113a5b.jpg/v1/fill/w_1192,h_670,q_70,strp/nightlife_momentum_by_joeyjazz_ddltwlt-pre.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+h1{
+    font-family: arial black;
+    font-size: 50px;
+    color:white;
+    margin: 0px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+p.deskripsi {
+	font-family: arial black;
+    font-size: 50px;
+    color:white;
+	position: relative;
+	top: 100px;
+}
+
+ .dd img{
+  width: 400px;
+  height: 400px;
+  margin: 300px;
+ }
+ .wrapper img {
+	width: 500px;
+	height: auto;
+	position: relative;
+	top: 50px;
+	left: 300px;
+ }
+.wrapper2 p {
+	width: 500px;
+	height: auto;
+	position: relative;
+	top: 50px;
+	left: 500px;
+ }
+ .kolom img {
+    position: relative;
+	top: 150px;
+ }
+ .deskripsi {
+	position: relative;
+	top: 150px;
+ }
+.deskripsi p{
+	position: relative;
+	top: 150px;
+}
+p.deskripsi {
+	position: relative;
+	top: 150px;
+	font-size: 30px;
+	color: brown;
+}
+
+
+
